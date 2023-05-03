@@ -23,21 +23,13 @@ from dython.nominal import identify_nominal_columns
 df = pd.read_csv('Original.csv')
 
 
-# In[177]:
-
-
 #Looking at the first ten roles of the data
 df.head()
-
-
-# In[178]:
 
 
 #Data has 521 roles and 32 coumns with missing values
 df.shape
 
-
-# In[179]:
 
 
 #Creat a wrangle function and prepare your data
